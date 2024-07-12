@@ -1,0 +1,104 @@
+.color_r {
+    color: #fa1099;
+}
+.color_b {
+    color: #00ffff;
+}
+.color_y {
+    color: #bdb76b;
+}
+.color_o {
+    color: #cd863f;
+}
+.banner {
+    font-size: 0.6em;
+    text-shadow: 0 0 3px #008080, 0.5em 0.5em 3em #ff000050;
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+    color: #eeeeee;
+    display: block;
+    font-weight: bold;
+    white-space: pre;
+    margin: 50px auto;
+    text-decoration: none;
+    border-bottom: 0;
+}
+@media only screen and (max-width: 756px) {
+    .banner {
+        font-size: 0.5em;
+        text-shadow: 0 0 3px #008080, 0.4em 0.4em 3em #ff000050;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .banner {
+        font-size: 0.4em;
+        text-shadow: 0 0 3px #008080, 0.3em 0.3em 3em #ff000050;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .banner {
+        font-size: 0.3em;
+        text-shadow: 0 0 3px #008080, 0.2em 0.2em 3em #ff000050;
+    }
+}
+body {
+    background-color: #101010;
+    color: #eeeeee;
+    font: 1.3rem Consolas,monaco,monospace;
+    text-shadow: 0 0 3px #c8c8c850, 0.5em 0.5em 1em #c8c8c850;
+    line-height: 1em;
+    -webkit-font-smoothing: none;
+    max-width: 900px;
+    margin: auto;
+}
+::selection {
+    color: #101010;
+    background: #eeeeee;
+    text-decoration: none;
+    text-shadow: none;
+}
+a {
+    color: #86268a;
+}
+fieldset {
+    word-wrap: break-word;
+    margin: 0;
+    border: 5px groove #86268a;
+}
+table {
+    width: 100%;
+}
+th {
+    border: 1px solid #bebebe;
+}
+tr:nth-child(even) {
+    background-color: #202020;
+}
+td {
+    width: 25%;
+}
+.center {
+    text-align: center;
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.tosin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter: drop-shadow(16px 16px 20px #e82722);
+}
+.card-left {
+    width: 20%;
+}
+.card-right {
+    width: 80%;
+}
