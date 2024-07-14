@@ -1,104 +1,38 @@
-.color_r {
-    color: #fa1099;
-}
-.color_b {
-    color: #00ffff;
-}
-.color_y {
-    color: #bdb76b;
-}
-.color_o {
-    color: #cd863f;
-}
-.banner {
-    font-size: 0.6em;
-    text-shadow: 0 0 3px #008080, 0.5em 0.5em 3em #ff000050;
-    padding: 0;
-    margin: 0;
-    line-height: 1em;
-    color: #eeeeee;
-    display: block;
-    font-weight: bold;
-    white-space: pre;
-    margin: 50px auto;
-    text-decoration: none;
-    border-bottom: 0;
-}
-@media only screen and (max-width: 756px) {
-    .banner {
-        font-size: 0.5em;
-        text-shadow: 0 0 3px #008080, 0.4em 0.4em 3em #ff000050;
-    }
-}
-@media only screen and (max-width: 640px) {
-    .banner {
-        font-size: 0.4em;
-        text-shadow: 0 0 3px #008080, 0.3em 0.3em 3em #ff000050;
-    }
-}
-@media only screen and (max-width: 540px) {
-    .banner {
-        font-size: 0.3em;
-        text-shadow: 0 0 3px #008080, 0.2em 0.2em 3em #ff000050;
-    }
-}
 body {
-    background-color: #101010;
-    color: #eeeeee;
-    font: 1.3rem Consolas,monaco,monospace;
-    text-shadow: 0 0 3px #c8c8c850, 0.5em 0.5em 1em #c8c8c850;
-    line-height: 1em;
-    -webkit-font-smoothing: none;
-    max-width: 900px;
-    margin: auto;
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: Consolas,monaco,monospace;
+    margin: 0;
+    padding: 0;
 }
-::selection {
-    color: #101010;
-    background: #eeeeee;
-    text-decoration: none;
-    text-shadow: none;
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+h1, h2 {
+    color: #BB86FC;
 }
 a {
-    color: #86268a;
+    color: #BB86FC;
+    text-decoration: none;
 }
-fieldset {
-    word-wrap: break-word;
-    margin: 0;
-    border: 5px groove #86268a;
-}
-table {
-    width: 100%;
-}
-th {
-    border: 1px solid #bebebe;
-}
-tr:nth-child(even) {
-    background-color: #202020;
-}
-td {
-    width: 25%;
-}
-.center {
+.header, .footer {
     text-align: center;
+    padding: 20px 0;
 }
-.unselectable {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+.header {
+    background-color: #1F1F1F;
 }
-.tosin {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    filter: drop-shadow(16px 16px 20px #e82722);
+.footer {
+    background-color: #1F1F1F;
+    margin-top: 20px;
 }
-.card-left {
-    width: 20%;
+.content {
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 10px;
 }
-.card-right {
-    width: 80%;
+.project {
+    margin-bottom: 20px;
 }
